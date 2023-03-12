@@ -16,6 +16,7 @@ splom(women[, c("height", "weight")], col = "blue",
 
 #ggplot2#
 
+library(ggplot2)
 ggplot(data = women, aes(x = height, y = weight)) +
   geom_point() +
   geom_smooth(method = "lm", formula = "y ~ poly(x, 2)", se = FALSE) +
