@@ -10,7 +10,7 @@ plot(women$height, women$weight,
 #LATTICE#
 
 library(lattice)
-splom(women[, c("height", "weight")], col = "blue",
+splom(women[, c("height", "weight")], col = "red",
       main = "Scatter Plot Matrix of Height and Weight")
 
 
